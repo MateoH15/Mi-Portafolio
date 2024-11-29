@@ -8,6 +8,7 @@
     <script src="https://kit.fontawesome.com/e411061408.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
     <link rel="stylesheet" href="styles/style.css">
+
 </head>
 
 <body>
@@ -29,12 +30,12 @@
                 </select>
             </div>
         </div>
-        <div class="navbar">
-            <nav>
+        <div class="container-navbar">
+            <nav class="navbar">
                 <li>
-                    <ul><a href="">Inicio</a></ul>
-                    <ul><a href="">Proyectos</a></ul>
-                    <ul><a href="">Contacto</a></ul>
+                    <ul><a href="index.html">Inicio</a></ul>
+                    <ul><a href="#Proyectos">Proyectos</a></ul>
+                    <ul><a href="#Contacto">Contacto</a></ul>
                 </li>
             </nav>
         </div>
@@ -45,10 +46,10 @@
         <div class="container-description-animation">
             <div class="container-description">
                 <h1>Mateo Herrera</h1>
-                <p>lorem alsj askoa ksks asjdas skn sjd jsd asjoq eogdns dlsdjkd dlkdjfo dfkdjow dlsfsdfjownd
-                    slfksdfjfnwf
-                    dlkafjow sljo ofj alfon dlkfd la lasjaosine oiir ejvo ljlsoa oo fklvfjl alfie clfjeo
-                    dlwnfosd. <span>|</span></p>
+                <p>Soy desarrollador web con experiencia en crear sitios web escalables y responsive, especializado en
+                    garantizar un diseño intuitivo y funcional para los usuarios.
+                    <span>|</span>
+                </p>
                 <button class="download-cv">Descargar CV</button>
             </div>
             <div class="container-animation">
@@ -66,38 +67,42 @@
                 <i class="fa-brands fa-html5"></i>
                 <i class="fa-brands fa-css"></i>
                 <i class="fa-brands fa-js"></i>
-                <i class="fa-brands fa-react"></i>
+                <i class="fa-brands fa-react oculto"></i>
+                <i class="fa-brands fa-figma"></i>
                 <i class="fa-brands fa-bootstrap"></i>
-                <i class="fa-brands fa-git-alt"></i>
-                <i class="fa-brands fa-node-js"></i>
-                <i class="fa-solid fa-database"></i>
+                <i class="fa-brands fa-git-alt oculto"></i>
+                <i class="fa-brands fa-node-js oculto"></i>
+                <i class="fa-solid fa-database oculto"></i>
             </div>
         </section>
 
         <div class="divider"></div>
 
-        <section class="proyectos">
+        <section class="proyectos" id="Proyectos">
             <h2>Proyectos</h2>
             <div class="container-proyectos">
                 <div class="cards-proyectos">
-                    <h4></h4>
-                    <img src="" alt="">
-                    <p></p>
+                    <h4>Look Urbano</h4>
+                    <img src="assets/Opera Captura de pantalla_2024-11-29_170339_mateoh15.github.io.png" alt="">
+                    <p>Sitio web de ropa estilo urbano</p>
+                    <p>Tecnologías: <span>HTML, CSS, Bootstrap, Sass</span></p>
                 </div>
                 <div class="cards-proyectos">
-                    <h4></h4>
-                    <img src="" alt="">
-                    <p></p>
+                    <h4>Look Urbano</h4>
+                    <img src="assets/Opera Captura de pantalla_2024-11-29_170339_mateoh15.github.io.png" alt="">
+                    <p>Sitio web de ropa estilo urbano</p>
+                    <p>Tecnologías: <span>HTML, CSS, Bootstrap, Sass</span></p>
                 </div>
                 <div class="cards-proyectos">
-                    <h4></h4>
-                    <img src="" alt="">
-                    <p></p>
+                    <h4>Look Urbano</h4>
+                    <img src="assets/Opera Captura de pantalla_2024-11-29_170339_mateoh15.github.io.png" alt="">
+                    <p>Sitio web de ropa estilo urbano</p>
+                    <p>Tecnologías: <span>HTML, CSS, Bootstrap, Sass</span></p>
                 </div>
             </div>
         </section>
 
-        <section class="contacto">
+        <section class="contacto" id="Contacto">
             <h2>Contacto</h2>
             <div class="container-contacto">
                 <div class="input-contacto">
@@ -117,6 +122,7 @@
             <button class="enviar">Enviar</button>
         </section>
     </main>
+    <script src="script/main.js"></script>
 </body>
 
 </html>
